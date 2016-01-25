@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Register Form</title>
+</head>
+<body>
+<h1>Java Learning Center </h1>
+<h2>Add Inquiry Form</h2>
+<form action="register">
+<table>
+	<tr>
+	<td>Full Name</td>
+	<td><input type="text" name="fname" value="Shashank Shekhar"/></td>
+	</tr>
+		
+	<tr>
+	<td>Email</td>
+	<td><input type="text" name="email"/></td>	
+	</tr>
+	
+	<tr>
+	<td>Phone</td>
+	<td><input type="text" name="phone" /></td>	
+	</tr>
+	
+	<tr>
+	<td>Gender</td>
+	<td><input type="radio" name="gender" value="male" />Male</td>
+	<td><input type="radio" name="gender" value="female" />Female</td>	
+	</tr>
+	
+	<tr>
+	<td>Course Name</td>
+	<td><input type="checkbox" name="course" value="Module 1: Java,Core Java,JDBC">Module 1<br>
+		<input type="checkbox" name="course" value="Module 2: Spring, Hibernate,Servlet ">Module 2<br>
+		<input type="checkbox" name="course" value="Module 3: Web SERVICES	">Module 3<br>
+		<input type="checkbox" name="course" value="Module 4: EJB">Module 4<br>
+	</td>
+	</tr>
+	
+	<tr><td>Timings</td>
+	<td><select name="timings">
+	<option value="Select">Select</option>
+	<option value="7:00 AM - 9:00 AM">7:00 AM - 9:00 AM</option>
+	<option value="9:00 AM - 11:00 AM">9:00 AM - 11:00 AM</option>
+	<option value="4:00 PM - 6:00 PM">4:00 PM - 6:00 PM</option>
+	</select></td>
+	</tr>
+	
+	<tr>
+	<td>Remarks</td>
+	<td><textarea rows="10" cols="20" name="remarks"></textarea></td>
+	</tr>
+	
+	<tr>
+	<td colspan="2" align="center"><input type="submit" value="Add Inquiry"/></td>
+	</tr>
+	
+</table>
+</form>
+</body>
+</html>
